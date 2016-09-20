@@ -17,7 +17,7 @@
 #logo h1 {
 	font-size: 60px;
 	letter-spacing: 15px;
-	color: #FFD1AA;
+	color: #552700;
 	text-shadow: #804515 2px 4px 2px, #552700 5px 10px 5px;
 	text-transform: uppercase;
 }
@@ -58,6 +58,36 @@
 	background-image: url("../image/antique.jpg");
 	box-shadow: 7px 7px 3px #888888;
 	border-radius: 10px;
+}
+
+#news {
+	width: 100px;
+	height: 200px;
+	margin: 5px 5px 5px 5px;
+	background: #D49A6A;
+	float: right;
+}
+
+#news .newsItem {
+	widht: 80px;
+	padding: auto;
+	margin: 2px;
+}
+
+#news .newsItemHeader {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	background-color: #552700;
+	color: #FFD1AA;
+}
+
+#news .newsItemContent {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: italic;
+	background-color: #FFD1AA;
+	color: #552700;
 }
 
 #content p {
@@ -112,9 +142,9 @@ img.home {
 	padding: 8px;
 }
 
-div.right {
-	float: right;
-	width: 60%;
+div.left {
+	float: left;
+	width: 50%;
 	margin: auto;
 	display: block;
 }
