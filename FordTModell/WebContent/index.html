@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ford T-Modell</title>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#menuBar li a").each(function() {
+			$(this).click(function(event) {
+				event.preventDefault();
+				$('#content').load($(this).attr('href'));
+			});
+		});
+		$('#content').load('home.html');
+	});
+</script>
 </head>
 <body>
-
+	<div id="header">
+		<div id="logo">
+			<h1>Régi autók</h1>
+		</div>
+		<div id="menuBar">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="bevezetes.html">Bevezetés</a></li>
+				<li><a href="tortenet.html">Történet</a></li>
+				<li><a href="muszaki.html">Műszaki adatok</a></li>
+				<li><a href="gyartas.html">Gyártás</a></li>
+				<li><a href="kapcsolat.html">Kapcsolat</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="siteBody">
+		<div id="content"></div>
+	</div>
+	<div id="footer">
+		<p>
+			Copyright by Naszi
+		</p>
+	</div>
 </body>
 </html>

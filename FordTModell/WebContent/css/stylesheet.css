@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+#header {
+	width: 810px;
+	height: 140px;
+	margin: auto;
+	border-radius: 10px;
+	background-image: url("../image/antique.jpg");
+	box-shadow: 7px 7px 3px #888888;
+}
+
+#logo {
+	height: 80px;
+	text-align: center;
+}
+
+#logo h1 {
+	font-size: 60px;
+	letter-spacing: 15px;
+	color: #FFD1AA;
+	text-shadow: #804515 2px 4px 2px, #552700 5px 10px 5px;
+	text-transform: uppercase;
+}
+
+#menuBar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #D49A6A;
+}
+
+#menuBar li {
+	float: left;
+	margin: 2px;
+	background-color: #FFD1AA;
+}
+
+#menuBar li a {
+	display: block;
+	color: #552700;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#menuBar li a:hover {
+	background-color: #552700;
+	color: #FFD1AA;
+}
+
+#siteBody {
+	width: 800px;
+	min-height: 400px;
+	margin: 15px auto;
+	padding: 5px;
+	border-radius: 10px;
+	background-image: url("../image/antique.jpg");
+	box-shadow: 7px 7px 3px #888888;
+	border-radius: 10px;
+}
+
+#content p {
+	font-family: "Times New Roman", Times, serif;
+	text-align: justify;
+	color: #552700;
+	font-size: 18px;
+	margin: 5px;
+	padding: 8px;
+}
+
+#content h2 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	color: #552700;
+	font-size: 32px;
+}
+
+img.home {
+	width: 80%;
+	margin: auto;
+	display: block;
+	border-radius: 4px;
+	padding: 5px;
+	border: 1px solid #552700;
+}
+
+.subtitle {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	text-align: center;
+	color: #552700;
+	font-size: 16px;
+	text-align: center;
+}
+
+#footer {
+	width: 800px;
+	height: 40px;
+	margin: auto;
+	border-radius: 10px;
+	background-image: url("../image/antique.jpg");
+	box-shadow: 7px 7px 3px #888888;
+}
+
+#footer p {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	color: #552700;
+	font-size: 18px;
+	margin: 5px;
+	padding: 8px;
+}
+
+div.right {
+	float: right;
+	width: 60%;
+	margin: auto;
+	display: block;
+}
