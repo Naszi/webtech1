@@ -44,6 +44,11 @@
 	text-decoration: none;
 }
 
+#menuBar li a:focus {
+	background-color: #552700;
+	color: #FFD1AA;
+}
+
 #menuBar li a:hover {
 	background-color: #552700;
 	color: #FFD1AA;
@@ -94,7 +99,7 @@
 	font-family: "Times New Roman", Times, serif;
 	text-align: justify;
 	color: #552700;
-	font-size: 18px;
+	font-size: 15px;
 	margin: 5px;
 	padding: 8px;
 }
@@ -104,6 +109,52 @@
 	text-align: center;
 	color: #552700;
 	font-size: 32px;
+	margin: 5px;
+	padding: 8px;
+}
+
+#content h3 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	color: #552700;
+	font-size: 25px;
+	margin: 5px;
+	padding: 8px;
+}
+
+#content h4 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	color: #552700;
+	font-size: 20px;
+	margin: 5px;
+	padding: 8px;
+}
+
+#content table {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #552700;
+    box-shadow: 7px 7px 3px #888888;
+    border-collapse: separate;
+    width: 80%;
+    margin: auto;
+}
+
+#content th {
+    border: 1px solid #552700;
+    background-color: #FFD1AA;
+    font-size: 15px;
+    color: #552700;
+    text-align: center;
+    padding: 8px;
+}
+
+#content td {
+    border: 1px solid #FFD1AA;
+    color: #FFD1AA;
+    font-size: 15px;
+    text-align: left;
+    padding: 8px;
 }
 
 img.home {
@@ -144,6 +195,13 @@ img.home {
 
 div.left {
 	float: left;
+	width: 50%;
+	margin: auto;
+	display: block;
+}
+
+div.right {
+	float: right;
 	width: 50%;
 	margin: auto;
 	display: block;

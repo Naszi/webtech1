@@ -1,14 +1,14 @@
 [
-   {
-      "title":"News #1",
-      "teaser":"Lorem ipsum dolor ..."
-   },
-   {
-      "title":"News #2",
-      "teaser":"Lorem ipsum dolor ..."
-   },
-   {
-      "title":"News #3",
-      "teaser":"Lorem ipsum dolor ..."
-   }
+	{
+		"title": "Eladó",
+		"teaser": "1921-es Ford T-modellem ..."
+	},
+	{
+		"title": "Keresek",
+		"teaser": "Jó állapotban lévő ..."
+	},
+	{
+		"title": "Találkozó",
+		"teaser": "Öreg autók Miskolcon ..."
+	}
 ]
